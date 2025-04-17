@@ -1,0 +1,75 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# SQLite DB or other local DB files (if used)
+*.sqlite3
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Local IDE settings
+.idea/
+*.swp
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Cache
+*.cache
+*.pkl
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Test result files
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# FastAPI + Uvicorn logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
