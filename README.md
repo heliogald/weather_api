@@ -1,5 +1,5 @@
 
-# 🌤️ Projeto de Consulta e Armazenamento de Dados Climáticos (Teste para Desenvolvedor Júnior)
+# 🌤️ Projeto de Consulta e Armazenamento de Dados Climáticos
 
 Este projeto foi desenvolvido como parte de um teste técnico para uma vaga de Desenvolvedor Júnior. Ele consiste em uma aplicação baseada em **FastAPI** que realiza a **consulta de dados climáticos**, armazena esses dados em um banco de dados **PostgreSQL**, expõe endpoints RESTful e simula um **fluxo ETL com agendamento automático** e integração com um **WebHook** externo.
 
@@ -99,9 +99,12 @@ Consulta a previsão do tempo para uma cidade e armazena no banco.
   "city": "São Paulo"
 }
 ```
+![alt text](image.png)
 
 ### `GET /weather/`
 Lista todas as entradas salvas ou filtra por cidade.
+
+![alt text](image-1.png)
 
 **Exemplo:**
 `/weather/?city=São Paulo`
@@ -120,5 +123,5 @@ Deleta um registro específico pelo ID.
 
 ## 🤝 Autor
 
-**Seu Nome**  
-[LinkedIn](https://www.linkedin.com/in/seunome/) • [GitHub](https://github.com/seunome)
+**Hélio Galdino**  
+[LinkedIn](https://www.linkedin.com/in/helio-galdino-84412091/) • [GitHub](https://github.com/heliogald)
