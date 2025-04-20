@@ -49,8 +49,8 @@ README.md
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seuusuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/heliogald/weather_api.git
+cd weather_api
 ```
 
 2. **Configure o `.env` se necessário (opcional)**
